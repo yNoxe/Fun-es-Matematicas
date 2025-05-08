@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cálculo de Consumo de Energia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Cálculo de Consumo de Energia</h1>
+    <label for="consumo">Consumo em kW:</label>
+    <input type="text" id="consumo" placeholder="Digite o consumo em kW" />
+    <button onclick="calcularValor()">Calcular Valor</button>
+    <div id="resultado">
+      <p>Valor a pagar: <span id="valor">0.00</span> R$</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
